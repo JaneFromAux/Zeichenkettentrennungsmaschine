@@ -104,7 +104,7 @@ section p {
     cursor: pointer;
 }
 
-[type="button"]:hover {
+[type="button"]:active {
     box-shadow: 0 0 20px black;
     color: darksalmon;
     background-color: beige;
