@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    padding: 0 10vw;
+    font-family: sans-serif;
+    background-color: beige;
+}
+
+/* ************************
+        ÜBERSCHRIFT
+************************ */
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin: 3vh auto;
+}
+
+/* ************************
+        FORM
+************************ */
+form {
+    width: 44vw;
+    font-size: 2rem;
+    background-color: bisque;
+    margin: 0 18vw;
+    padding: 1vh 4vw 3vh 4vw;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px black;
+}
+
+form>label {
+    display: block;
+    margin: 3vh auto;
+}
+
+form>input {
+    width: 100%;
+    padding-left: 15px;
+}
+
+form>div,
+section {
+    margin: 3vh auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+    padding: 5vh 0 5vh 4vw;
+    border-radius: 30px;
+}
+
+form>div>label {
+    padding-right: 5vw;
+}
+
+h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 3vh auto;
+}
+
+/* ************************
+        AUSGABE
+************************ */
+h3 {
+    font-size: 3rem;
+}
+
+section {
+    background-color: bisque;
+    height: 17vh;
+    border-radius: 30px;
+    box-shadow: 0 0 20px black;
+}
+
+section p {
+    margin: 2vh auto;
+    font-size: 2rem;
+}
+
+/* ************************
+        BUTTON
+************************ */
+[type="button"] {
+    width: unset;
+    background-color: darksalmon;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 20px;
+    color: beige;
+    margin-left: 25%;
+    font-size: 2.5rem;
+}
+
+[type="button"]:hover {
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+
+[type="button"]:hover {
+    box-shadow: 0 0 20px black;
+    color: darksalmon;
+    background-color: beige;
+}
